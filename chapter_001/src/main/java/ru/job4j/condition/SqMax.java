@@ -20,6 +20,7 @@ public class SqMax {
         if ((forth >= first) && (forth >= second) && (forth >= third))
         {result = forth;}
 
+
         return result;
 
     }
