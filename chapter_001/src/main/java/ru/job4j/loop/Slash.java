@@ -11,10 +11,9 @@ public class Slash {
 
 //               boolean left = ((cell + row) % 2 == 0); // добавить условие, по которому нужно определить ставить ли символ или нет.
 //               boolean right = ((cell + row) % 2 == 0); // добавить условие, что нужно ставить элемент в правый угол.
-               if (left) {
-                   System.out.print("0");
-               } else if (right) {
-                   System.out.print("0");
+
+               if ((left) || (right)) {
+                System.out.print("0");
                } else {
                    System.out.print(" ");
                }
