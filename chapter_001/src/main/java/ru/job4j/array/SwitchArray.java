@@ -2,10 +2,18 @@ package ru.job4j.array;
 
 /**
  * Метод swapBorder - меняет местами нулевой элемент и последний элемент в массиве.
- * Это код падает с ошибкой java.lang.ArrayIndexOutOfBoundsException.
- * Ваша задача устранить эту ошибку.
+ * Это код падает с ошибкой java.lang.ArrayIndexOutOfBoundsException.Ваша задача устранить эту ошибку.
+ */
+/**
+ * Метод SwitchArray - меняет местами произвольные элементы в массиве.
  */
 public class SwitchArray {
+    public static int[] swap(int[] array, int source, int dest) {
+        int temp = array[source];
+        array[source] = array[dest];
+        array[dest] = temp;
+        return array;
+    }
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
 //        array[0] = array[array.length];
