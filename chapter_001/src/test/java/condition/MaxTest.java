@@ -1,3 +1,5 @@
+package condition;
+
 import org.junit.Test;
 import ru.job4j.condition.Max;
 import static org.junit.Assert.assertThat;
