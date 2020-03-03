@@ -7,11 +7,12 @@ public class ArrayChar {
     public static boolean startsWith(char[] word, char[] pref) {
         boolean result = true;
         for (int index = 0; index < pref.length; index++) {
-//            for (index = 0; index < pref.length; index++) {
-            if (word[index] == pref[index]);
-            else result = false;
+            if (word[index] == pref[index]){
             }
-//        }
+            else {result = false;
+                break;
+            }
+         }
         return result;
     }
 }
