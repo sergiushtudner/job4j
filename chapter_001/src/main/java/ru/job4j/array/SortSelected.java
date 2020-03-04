@@ -9,7 +9,7 @@ public class SortSelected {
     public static int[] sort(int[] data) {
         for (int i = 0; i < data.length; i++) {
         int min = MinDiapason.findMin(data, i, data.length-1); // находим мин значение в данном массиве
-            int index = FindLoop.indexOf(data, min, 0, data.length); // находим номер ячейки где лежит мин значение массива
+            int index = FindLoop.indexOf(data, min, i, data.length); // находим номер ячейки где лежит мин значение массива
                int temp = data[i];
                data[i] = data[index];
                data[index] = temp;
