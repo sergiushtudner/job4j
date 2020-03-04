@@ -2,7 +2,6 @@ package array;
 
 import org.junit.Test;
 import ru.job4j.array.ArrayChar;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
