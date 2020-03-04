@@ -30,7 +30,6 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, post);
         assertThat(result, is(true));
     }
-
     @Test
     public void whenNotEndWithPrefixThenFalse2() {
         char[] word = {'M', 'o', 'n', 'e', 'y', 'y'};
