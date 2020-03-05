@@ -27,6 +27,7 @@ public class MatrixCheck {
     }
 
     public static char[] extractDiagonal(char[][] board) {
+// В этом задании вам нужно будет заполнить одномерный массив элементами диагонали из двухмерного массива.
         char[] rsl = new char[board.length];
         for (int i = 0; i < board.length; i++) {
             rsl[i] = board[i][i];
@@ -34,6 +35,24 @@ public class MatrixCheck {
                 }
         return rsl;
 
+    }
+
+    public static boolean isWin(char[][] board) {
+/**
+ * В этом задании вам нужно будет написать код проверки выигрышной ситуации в игре сокобан.
+ * Игровое поле представляет собой массив, заполненный символами '_' (подчеркивание) и 'X' - крестик.
+ *
+ * Цель игры - расположить крестики в линию на 5 элементов.
+ * Элементы X должны располагаться либо вертикально, либо горизонтально.
+ */
+        boolean result = false;
+        for (int index = 0; index < board.length; index++) {
+                if (monoHorizontal(board, index) || monoVertical(board, index))  {
+                    result = true;
+                    break;
+                }
+            }
+        return result;
     }
 
 }
