@@ -5,7 +5,6 @@ public class Point {
         double rsl = Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2));
         return rsl;
     }
-
     public static void main(String[] args) {
         double result1 = Point.distance(5, 5, 100, 100);
         System.out.println("result for distance form (5, 5) to (1000, 1000) " + result1);

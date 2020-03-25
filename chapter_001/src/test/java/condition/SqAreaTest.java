@@ -1,9 +1,12 @@
-package ru.job4j.condition;
+package condition;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.condition.SqArea;
 
-//Тесты для стороны прямоугольника.
+/**
+ * Тесты для стороны прямоугольника.
+ */
 public class SqAreaTest {
         @Test
         public void TrgArea() {

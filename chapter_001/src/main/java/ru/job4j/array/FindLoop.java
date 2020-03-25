@@ -18,9 +18,7 @@ public class FindLoop {
         }
         return rst;
     }
-
     public static int indexOf(int[] data, int el, int start, int finish) {
-// нужно сделать поиск по массиву, но не во всем массиве, а только в указанном диапазоне.
         int rst = -1; // если элемента нет в массиве, то возвращаем -1.
         for (int index = start; index < finish; index++) {
             if (data[index] == el) {

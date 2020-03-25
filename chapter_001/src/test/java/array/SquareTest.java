@@ -1,3 +1,5 @@
+package array;
+
 import org.junit.Test;
 import ru.job4j.array.Square;
 

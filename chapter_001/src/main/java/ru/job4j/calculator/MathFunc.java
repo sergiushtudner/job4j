@@ -5,12 +5,10 @@ public class MathFunc {
         int y = x * x + 1;
         return y;
     }
-
     public static int func2(int x) {
         int y = x * 10;
         return y;
     }
-
     public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
         int result2 = MathFunc.func1(5);

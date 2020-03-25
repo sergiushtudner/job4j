@@ -1,6 +1,8 @@
 package ru.job4j.condition;
 
-// Максимум из трех чисел[#234676]
+/**
+ * Максимум из трех чисел[#234676]
+ */
 
 public class MultiMax {
     public int max(int first, int second, int third) {

@@ -17,7 +17,6 @@ public class ConverterTest {
         int out = Converter.EuroToRuble(in);
         Assert.assertEquals(expected, out);
     }
-
     @Test
     public void rubleToEuro2() {
         int in = 35000;
@@ -46,7 +45,6 @@ public class ConverterTest {
         int out = Converter.EuroToRuble(in);
         Assert.assertEquals(expected, out);
     }
-
     @Test
     public void rubleToEuro4() {
         int in = 3850;
@@ -61,15 +59,12 @@ public class ConverterTest {
         int out = Converter.EuroToRuble(in);
         Assert.assertEquals(expected, out);
     }
-
-
     @Test
     public void rubleToDollar1() {
         int in = 60;
         int expected = 1;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
-
     }
     @Test
     public void DollarToRuble1() {
@@ -77,7 +72,6 @@ public class ConverterTest {
         int expected = 60;
         int out = Converter.DollarToRuble(in);
         Assert.assertEquals(expected, out);
-
     }
     @Test
     public void rubleToDollar2() {
@@ -85,7 +79,6 @@ public class ConverterTest {
         int expected = 60;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
-
     }
     @Test
     public void DollarToRuble2() {
@@ -100,7 +93,6 @@ public class ConverterTest {
         int expected = 75;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
-
     }
     @Test
     public void DollarToRuble3() {
@@ -115,7 +107,6 @@ public class ConverterTest {
         int expected = 500;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
-
     }
     @Test
     public void DollarToRuble4() {
@@ -124,7 +115,4 @@ public class ConverterTest {
         int out = Converter.DollarToRuble(in);
         Assert.assertEquals(expected, out);
     }
-
-
-
 }
